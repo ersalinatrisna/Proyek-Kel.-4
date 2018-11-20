@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package manajemenparkir;
-
+import UI.LoginUI;
 /**
  *
  * @author ASUS
@@ -15,7 +15,8 @@ public class ManajemenParkir {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        LoginUI A = new LoginUI();
+        A.setVisible(true);
     }
     
 }
